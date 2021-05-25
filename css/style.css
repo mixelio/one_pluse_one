@@ -125,6 +125,10 @@ input::-webkit-search-results-decoration {
   src: url("../fonts/18872.ttf");
 }
 @font-face {
+  font-family: "mrKindlyJasmineG";
+  src: url("../fonts/19516.otf");
+}
+@font-face {
   font-family: "Aullia";
   src: url("../fonts/Aullia DEMO.eot");
   src: local("☺"), url("../fonts/Aullia DEMO.woff") format("woff"), url("../fonts/Aullia DEMO.ttf") format("truetype"), url("../fonts/Aullia DEMO.svg") format("svg");
@@ -167,9 +171,10 @@ body {
 }
 .first_screen h1 {
   margin: 0 0 30px;
-  font-family: English157;
+  font-family: mrKindlyJasmineG;
   font-size: 100px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 .first_screen p {
   font-size: 25px;
