@@ -709,7 +709,6 @@ footer {
       display: inline-block;
       width: 30px;
       height: 30px;
-      background: url("../../img/heart.svg") 50% 50% / cover no-repeat;
     }
   }
 
@@ -732,13 +731,12 @@ footer {
       display: inline-block;
       width: 25px;
       height: 25px;
-      background: url("../../img/like.svg") 50% 50% / cover no-repeat;
     }
   }
 
   .location {
     padding: 50px 0;
-    background: url("../../img/clouds.jpeg") 50% 50% / cover no-repeat;
+
     // background-color: rgba(#837251, 0.06);
     position: relative;
     z-index: -2;
@@ -981,7 +979,6 @@ footer {
           width: 50px;
           height: 50px;
 
-          background: url("../../img/man.svg") 50% 50% / cover no-repeat;
           position: absolute;
           top: 0;
           left: calc(50% - 25px);
@@ -993,7 +990,6 @@ footer {
             width: 50px;
             height: 50px;
 
-            background: url("../../img/woman.svg") 50% 50% / cover no-repeat;
             position: absolute;
             top: 0;
             left: calc(50% - 25px);
@@ -1014,7 +1010,6 @@ footer {
           width: 50px;
           height: 50px;
 
-          background: url("../../img/man.svg") 50% 50% / cover no-repeat;
           position: absolute;
           top: 0;
           left: calc(50% - 25px);
@@ -1026,7 +1021,6 @@ footer {
             width: 50px;
             height: 50px;
 
-            background: url("../../img/woman.svg") 50% 50% / cover no-repeat;
             position: absolute;
             top: 0;
             left: calc(50% - 25px);
@@ -1160,7 +1154,7 @@ footer {
   }
 
   .important {
-    padding: 50px 0;
+    padding: 30px 10px;
     font-size: 30px;
     p {
       margin-bottom: 10px;
@@ -1194,7 +1188,7 @@ footer {
 
   .footer__img {
     img {
-      width: 40px;
+      width: 60px;
     }
   }
 
