@@ -147,7 +147,7 @@ body {
 
 .first_screen {
   text-align: center;
-  padding: 100px 0 50px 0;
+  padding: 100px 0 60px 0;
   background: url("../img/first.jpg") 50% 50%/cover no-repeat;
   color: #fff;
   position: relative;
@@ -178,7 +178,7 @@ body {
 }
 .first_screen p {
   font-size: 25px;
-  margin: 0 0 50px;
+  margin: 0 0 40px;
   letter-spacing: 2px;
   line-height: 1.5;
 }
@@ -193,6 +193,18 @@ body {
   max-width: 730px;
 }
 
+.first_screen__logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+.first_screen__logo .first_screen__img {
+  flex: 1 1 50%;
+}
+.first_screen__logo .first_screen__img img {
+  width: 60px;
+}
+
 .quote {
   opacity: 0.7;
   font-size: 22px;
@@ -202,7 +214,7 @@ body {
 .grey_line {
   position: absolute;
   width: 100%;
-  height: 32%;
+  height: 27%;
   background-color: rgba(0, 0, 0, 0.31);
   bottom: 33px;
   z-index: -1;
