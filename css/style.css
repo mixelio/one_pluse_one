@@ -144,7 +144,7 @@ body {
 .first_screen {
   text-align: center;
   padding: 100px 0 50px 0;
-  background: url("../../img/first.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/first.jpg") 50% 50%/cover no-repeat;
   color: #fff;
   position: relative;
   z-index: -2;
@@ -245,7 +245,7 @@ body {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("../../img/heart.svg") 50% 50%/cover no-repeat;
+  background: url("../img/heart.svg") 50% 50%/cover no-repeat;
 }
 
 .about_program__sub_list {
@@ -266,12 +266,12 @@ body {
   display: inline-block;
   width: 25px;
   height: 25px;
-  background: url("../../img/like.svg") 50% 50%/cover no-repeat;
+  background: url("../img/like.svg") 50% 50%/cover no-repeat;
 }
 
 .location {
   padding: 50px 0;
-  background: url("../../img/clouds.jpeg") 50% 50%/cover no-repeat;
+  background: url("../img/clouds.jpeg") 50% 50%/cover no-repeat;
   position: relative;
   z-index: -2;
   box-shadow: inset 0 0 150px 50px white;
@@ -312,7 +312,7 @@ body {
 
 .speakers {
   padding: 50px 0;
-  background: url("../../img/mount.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/mount.jpg") 50% 50%/cover no-repeat;
   position: relative;
   z-index: -2;
   box-shadow: inset 0 0 150px 50px white;
@@ -469,7 +469,7 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url("../../img/man.svg") 50% 50%/cover no-repeat;
+  background: url("../img/man.svg") 50% 50%/cover no-repeat;
   position: absolute;
   top: 0;
   left: calc(50% - 25px);
@@ -479,7 +479,7 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url("../../img/woman.svg") 50% 50%/cover no-repeat;
+  background: url("../img/woman.svg") 50% 50%/cover no-repeat;
   position: absolute;
   top: 0;
   left: calc(50% - 25px);
@@ -494,7 +494,7 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url("../../img/man.svg") 50% 50%/cover no-repeat;
+  background: url("../img/man.svg") 50% 50%/cover no-repeat;
   position: absolute;
   top: 0;
   left: calc(50% - 25px);
@@ -504,7 +504,7 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url("../../img/woman.svg") 50% 50%/cover no-repeat;
+  background: url("../img/woman.svg") 50% 50%/cover no-repeat;
   position: absolute;
   top: 0;
   left: calc(50% - 25px);
@@ -572,7 +572,7 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url("../../img/man.svg") 50% 50%/cover no-repeat;
+  background: url("../img/man.svg") 50% 50%/cover no-repeat;
   position: absolute;
   top: 0;
   left: calc(50% - 25px);
@@ -582,7 +582,7 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url("../../img/woman.svg") 50% 50%/cover no-repeat;
+  background: url("../img/woman.svg") 50% 50%/cover no-repeat;
   position: absolute;
   top: 0;
   left: calc(50% - 25px);
@@ -597,7 +597,7 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url("../../img/man.svg") 50% 50%/cover no-repeat;
+  background: url("../img/man.svg") 50% 50%/cover no-repeat;
   position: absolute;
   top: 0;
   left: calc(50% - 25px);
@@ -607,7 +607,7 @@ body {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url("../../img/woman.svg") 50% 50%/cover no-repeat;
+  background: url("../img/woman.svg") 50% 50%/cover no-repeat;
   position: absolute;
   top: 0;
   left: calc(50% - 25px);
@@ -804,7 +804,6 @@ footer {
 
   .speakers {
     padding: 30px 0;
-    background: url("../../img/mount.jpg") 50% 50%/cover no-repeat;
     position: relative;
     z-index: -2;
     box-shadow: inset 0 0 150px 50px white;
@@ -1065,7 +1064,6 @@ footer {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: url("../../img/man.svg") 50% 50%/cover no-repeat;
     position: absolute;
     top: 0;
     left: calc(50% - 25px);
@@ -1075,7 +1073,6 @@ footer {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: url("../../img/woman.svg") 50% 50%/cover no-repeat;
     position: absolute;
     top: 0;
     left: calc(50% - 25px);
@@ -1090,7 +1087,6 @@ footer {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: url("../../img/man.svg") 50% 50%/cover no-repeat;
     position: absolute;
     top: 0;
     left: calc(50% - 25px);
@@ -1100,7 +1096,6 @@ footer {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: url("../../img/woman.svg") 50% 50%/cover no-repeat;
     position: absolute;
     top: 0;
     left: calc(50% - 25px);
