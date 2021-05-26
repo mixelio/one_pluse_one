@@ -229,6 +229,7 @@ main {
 
 .about_program {
   padding: 50px 0;
+  position: relative;
 }
 
 .registration {
@@ -237,8 +238,17 @@ main {
 }
 
 .reg {
-  background-color: green;
+  color: #fff;
+  background-color: #6c8f3b;
+  display: inline-block;
   padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
 }
 
 .title {
@@ -256,7 +266,7 @@ main {
   display: inline-block;
   height: 3px;
   width: 100px;
-  background-color: #580d5c;
+  background-color: #6c8f3b;
   position: absolute;
   right: calc(50% - 50px);
   bottom: 0;
@@ -267,20 +277,48 @@ main {
   line-height: 1.5;
 }
 
-.about_program__item {
-  position: relative;
-  padding: 0 0 0 50px;
+.about_program__container {
+  display: flex;
+  justify-content: flex-end;
 }
-.about_program__item:before {
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  content: "";
-  margin: 0 20px 0 0;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background: url("../img/heart.svg") 50% 50%/cover no-repeat;
+
+.about_program__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 15px;
+  text-shadow: 0 0 10px #000;
+}
+
+.about_program__left_1 {
+  background: url("../img/image-1.jpg") 50% 40%/cover no-repeat;
+}
+
+.about_program__right_1 {
+  background: url("../img/image-2.jpg") 50% 60%/cover no-repeat;
+}
+
+.about_program__left_2 {
+  background: url("../img/image-3.jpg") 50% 50%/cover no-repeat;
+}
+
+.about_program__right_2 {
+  background: url("../img/image-4.jpg") 50% 50%/cover no-repeat;
+}
+
+.about_program__left_3 {
+  background: url("../img/image-5.jpg") 50% 70%/cover no-repeat;
+}
+
+.about_program__right_3 {
+  background: url("../img/image-1.jpg") 50% 40%/cover no-repeat;
 }
 
 .about_program__sub_list {
@@ -744,25 +782,8 @@ footer {
     bottom: 0;
   }
 
-  .about_program__list {
-    font-size: 20px;
-    text-align: center;
-  }
-
   .about_program__item {
-    position: relative;
-    padding: 30px 0 0 0;
-    margin-bottom: 10px;
-  }
-  .about_program__item:before {
-    position: absolute;
-    top: 0px;
-    left: calc(50% - 15px);
-    content: "";
-    margin: 0 20px 0 0;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
+    font-size: 20px;
   }
 
   .about_program__sub_list {
