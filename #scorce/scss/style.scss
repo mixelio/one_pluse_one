@@ -40,7 +40,7 @@ main {
 
 .first_screen {
   text-align: center;
-  padding: 100px 0 60px 0;
+  padding: 100px 0 40px 0;
   background: url("../img/first.jpg") 50% 50% / cover no-repeat;
   color: #fff;
   position: relative;
@@ -71,12 +71,10 @@ main {
   }
   p {
     font-size: 29px;
-    margin: 0 0 40px;
+    margin: 0 0 20px;
     letter-spacing: 2px;
     line-height: 1.5;
-    &:first-child {
-      margin: 0 0 20px;
-    }
+
     &:last-child {
       margin: 0;
       font-family: English157;
@@ -95,7 +93,7 @@ main {
   justify-content: center;
   margin: 0 0 20px 0;
   .first_screen__img {
-    flex: 0 1 16%;
+    flex: 0 1 19%;
     img {
       width: 60px;
     }
@@ -111,9 +109,9 @@ main {
 .grey_line {
   position: absolute;
   width: 100%;
-  height: 27%;
+  height: 24%;
   background-color: rgba(#000, 0.31);
-  bottom: 33px;
+  bottom: 3%;
   z-index: -1;
 }
 
@@ -174,6 +172,7 @@ main {
 .about_program__container {
   display: flex;
   justify-content: flex-end;
+  margin: 10px 0;
 }
 
 .about_program__item {
@@ -737,8 +736,12 @@ footer {
     p {
       font-size: 20px;
       line-height: 1.5;
+      margin: 0;
       &:first-child {
-        margin: 0 0 20px;
+        margin: 0 0 10px;
+      }
+      &:nth-child(2) {
+        margin: 0 0 5px;
       }
       &:last-child {
         font-size: 27px;
@@ -772,26 +775,8 @@ footer {
     font-size: 20px;
   }
 
-  .about_program__sub_list {
-    max-width: 850px;
-    font-size: 18px;
-    padding: 10px 0 0;
-    text-align: center;
-  }
-
-  .about_program__sub_item {
-    position: relative;
-    padding: 30px 0 0 0;
-    margin-bottom: 10px;
-    &:before {
-      position: absolute;
-      top: 0px;
-      left: calc(50% - 12.5px);
-      content: "";
-      display: inline-block;
-      width: 25px;
-      height: 25px;
-    }
+  .questions__title {
+    font-size: 20px;
   }
 
   .location {
