@@ -118,7 +118,7 @@ input::-webkit-search-results-decoration {
 /*--------------------*/
 @font-face {
   font-family: "GardenCM";
-  src: url("../fonts/20011.ttf");
+  src: url("../fonts/14153.otf");
 }
 @font-face {
   font-family: "English157";
@@ -137,6 +137,10 @@ input::-webkit-search-results-decoration {
 }
 body {
   font-family: GardenCM;
+}
+
+main {
+  position: relative;
 }
 
 .container {
@@ -159,7 +163,7 @@ body {
   width: 100%;
   top: 0;
   opacity: 0.8;
-  background: #837251;
+  background: #666742;
   z-index: -1;
 }
 .first_screen h2 {
@@ -177,10 +181,13 @@ body {
   text-transform: uppercase;
 }
 .first_screen p {
-  font-size: 25px;
+  font-size: 29px;
   margin: 0 0 40px;
   letter-spacing: 2px;
   line-height: 1.5;
+}
+.first_screen p:first-child {
+  margin: 0 0 20px;
 }
 .first_screen p:last-child {
   margin: 0;
@@ -199,7 +206,7 @@ body {
   margin: 0 0 20px 0;
 }
 .first_screen__logo .first_screen__img {
-  flex: 1 1 50%;
+  flex: 0 1 16%;
 }
 .first_screen__logo .first_screen__img img {
   width: 60px;
@@ -224,21 +231,32 @@ body {
   padding: 50px 0;
 }
 
+.registration {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reg {
+  background-color: green;
+  padding: 10px;
+}
+
 .title {
   font-size: 40px;
-  color: #837251;
+  color: #98c853;
   position: relative;
   text-align: center;
   padding: 0 0 30px;
   margin: 0 0 30px;
   letter-spacing: 2px;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
 .title:before {
   content: "";
   display: inline-block;
   height: 3px;
   width: 100px;
-  background-color: #837251;
+  background-color: #580d5c;
   position: absolute;
   right: calc(50% - 50px);
   bottom: 0;
@@ -685,7 +703,7 @@ footer {
 
 @media (max-width: 800px) {
   .first_screen {
-    padding: 80px 0 30px 0;
+    padding: 80px 0 20px 0;
   }
   .first_screen h2 {
     font-size: 20px;
@@ -697,6 +715,9 @@ footer {
   .first_screen p {
     font-size: 20px;
     line-height: 1.5;
+  }
+  .first_screen p:first-child {
+    margin: 0 0 20px;
   }
   .first_screen p:last-child {
     font-size: 27px;

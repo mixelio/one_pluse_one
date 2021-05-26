@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "GardenCM";
-  src: url("../fonts/20011.ttf");
+  src: url("../fonts/14153.otf");
 }
 
 @font-face {
@@ -29,6 +29,9 @@ body {
   font-family: GardenCM;
 }
 
+main {
+  position: relative;
+}
 .container {
   max-width: 1366px;
   margin: 0 auto;
@@ -48,7 +51,7 @@ body {
     width: 100%;
     top: 0;
     opacity: 0.8;
-    background: #837251;
+    background: #666742;
     z-index: -1;
   }
 
@@ -67,10 +70,13 @@ body {
     text-transform: uppercase;
   }
   p {
-    font-size: 25px;
+    font-size: 29px;
     margin: 0 0 40px;
     letter-spacing: 2px;
     line-height: 1.5;
+    &:first-child {
+      margin: 0 0 20px;
+    }
     &:last-child {
       margin: 0;
       font-family: English157;
@@ -89,7 +95,7 @@ body {
   justify-content: center;
   margin: 0 0 20px 0;
   .first_screen__img {
-    flex: 1 1 50%;
+    flex: 0 1 16%;
     img {
       width: 60px;
     }
@@ -115,23 +121,34 @@ body {
   padding: 50px 0;
 }
 
+.registration {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reg {
+  background-color: green;
+  padding: 10px;
+}
+
 .about_program__title {
 }
 
 .title {
   font-size: 40px;
-  color: #837251;
+  color: #98c853;
   position: relative;
   text-align: center;
   padding: 0 0 30px;
   margin: 0 0 30px;
   letter-spacing: 2px;
+  text-shadow: 0 0 4px rgba(#000, 0.3);
   &:before {
     content: "";
     display: inline-block;
     height: 3px;
     width: 100px;
-    background-color: #837251;
+    background-color: #580d5c;
     position: absolute;
     right: calc(50% - 50px);
     bottom: 0;
@@ -669,7 +686,7 @@ footer {
 
 @media (max-width: 800px) {
   .first_screen {
-    padding: 80px 0 30px 0;
+    padding: 80px 0 20px 0;
     h2 {
       font-size: 20px;
       line-height: 1.3;
@@ -680,6 +697,9 @@ footer {
     p {
       font-size: 20px;
       line-height: 1.5;
+      &:first-child {
+        margin: 0 0 20px;
+      }
       &:last-child {
         font-size: 27px;
         line-height: 1.2;
