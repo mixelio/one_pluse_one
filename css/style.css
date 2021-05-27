@@ -295,6 +295,10 @@ main {
   text-align: center;
   padding: 0 15px;
   text-shadow: 0 0 10px #000;
+  transition-duration: 600ms;
+}
+.about_program__item:hover {
+  width: 80%;
 }
 
 .about_program__left_1 {
