@@ -357,19 +357,19 @@ main {
 }
 
 .questions__image_1 {
-  background: url("../../img/question-1.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/question-1.jpg") 50% 50%/cover no-repeat;
 }
 
 .questions__image_2 {
-  background: url("../../img/question-2.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/question-2.jpg") 50% 50%/cover no-repeat;
 }
 
 .questions__image_3 {
-  background: url("../../img/question-3.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/question-3.jpg") 50% 50%/cover no-repeat;
 }
 
 .questions__image_4 {
-  background: url("../../img/question-4.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/question-4.jpg") 50% 50%/cover no-repeat;
 }
 
 .qestions__point {
