@@ -298,7 +298,7 @@ main {
   transition-duration: 600ms;
 }
 .about_program__item:hover {
-  width: 80%;
+  width: 75%;
 }
 
 .about_program__left_1 {
