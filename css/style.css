@@ -228,7 +228,7 @@ main {
 }
 .registration a {
   transform: scale(1);
-  transition-duration: 500ms;
+  transition-duration: 300ms;
 }
 .registration a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -329,6 +329,8 @@ main {
   padding: 20px;
   text-align: center;
   font-size: 18px;
+  letter-spacing: 1.3px;
+  line-height: 1.2;
 }
 .questions__row ul li {
   position: relative;
@@ -359,11 +361,11 @@ main {
 }
 
 .questions__image_1 {
-  background: url("../img/question-1.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/question-2.jpg") 50% 50%/cover no-repeat;
 }
 
 .questions__image_2 {
-  background: url("../img/question-2.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/question-1.jpg") 50% 50%/cover no-repeat;
 }
 
 .questions__image_3 {
@@ -418,6 +420,7 @@ main {
 .location__info {
   font-size: 22px;
   line-height: 1.3;
+  letter-spacing: 1.3px;
 }
 
 .speakers {
@@ -463,6 +466,11 @@ main {
 .speakers__info p:last-child {
   margin-bottom: 0;
   color: #474747;
+}
+
+.speakers__subtitle {
+  text-shadow: 0 0 1px black;
+  letter-spacing: 2px;
 }
 
 .speakers__img {
