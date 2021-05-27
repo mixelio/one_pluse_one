@@ -221,16 +221,27 @@ main {
 }
 
 .registration {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
+}
+.registration a {
+  transform: scale(1);
+  transition-duration: 500ms;
+}
+.registration a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
 }
 
 .reg {
   color: #fff;
   background-color: #6c8f3b;
-  display: inline-block;
+  display: block;
+  text-align: center;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 25px;
   width: 200px;
   height: 50px;
   line-height: 30px;
