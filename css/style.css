@@ -659,6 +659,9 @@ main {
 .sale p span {
   color: red;
 }
+.sale .registration {
+  padding-top: 25px;
+}
 
 .sale__row {
   display: flex;
