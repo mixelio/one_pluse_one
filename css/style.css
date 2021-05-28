@@ -186,6 +186,9 @@ main {
   letter-spacing: 2px;
   line-height: 1.5;
 }
+.first_screen p:last-child {
+  font-size: 23px;
+}
 .first_screen .container {
   max-width: 730px;
 }
